@@ -1,0 +1,2 @@
+D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h
+D:\GitHub\BattleTank\BattleTank\Source\BattleTank\BattleTank.h

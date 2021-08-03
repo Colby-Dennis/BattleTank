@@ -1104,3 +1104,473 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.08.03-13.42.11:952][ 14]AssetCheck: New page: Asset Save: multiple assets
 [2021.08.03-13.42.11:952][ 14]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/BattleField_BuiltData.BattleField_BuiltData
 [2021.08.03-13.42.11:952][ 14]LogContentValidation: Display: Validating World /Game/Maps/BattleField.BattleField
+[2021.08.03-13.50.09:208][926]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2021.08.03-13.50.09:219][926]LogContentBrowser: Creating deferred item: NewWorld
+[2021.08.03-13.50.17:422][419]LogContentBrowser: Attempting asset rename: NewWorld -> StartMenu
+[2021.08.03-13.50.17:427][419]LogContentBrowser: End creating deferred item NewWorld
+[2021.08.03-13.51.57:508][173]LogContentBrowser: Attempting asset rename: StartMenu -> StartMenu
+[2021.08.03-13.51.57:694][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.08.03-13.52.02:849][183]LogSlate: Window 'Save Content' being destroyed
+[2021.08.03-13.52.02:892][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.08.03-13.52.02:896][183]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/StartMenu406681D24A5B7B8940C608BE3E268730.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/StartMenu.umap'
+[2021.08.03-13.52.02:897][183]LogFileHelpers: Saving map 'StartMenu' took 0.023
+[2021.08.03-13.52.02:925][183]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/StartMenu.StartMenu
+[2021.08.03-13.52.02:925][183]Cmd: MAP LOAD FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.03-13.52.02:925][183]LightingResults: New page: Lighting Build
+[2021.08.03-13.52.02:926][183]LoadErrors: New page: Loading map: StartMenu.umap
+[2021.08.03-13.52.02:927][183]LogWorld: UWorld::CleanupWorld for BattleField, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.52.02:928][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.52.02:928][183]MapCheck: New page: Map Check
+[2021.08.03-13.52.02:928][183]LightingResults: New page: Lighting Build
+[2021.08.03-13.52.02:959][183]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-13.52.02:988][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.08.03-13.52.02:991][183]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartMenu'.
+[2021.08.03-13.52.02:992][183]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.03-13.52.02:992][183]LogAIModule: Creating AISystem for world StartMenu
+[2021.08.03-13.52.03:010][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.08.03-13.52.03:020][183]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.03-13.52.03:020][183]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.166ms to complete.
+[2021.08.03-13.52.03:020][183]LogFileHelpers: Loading map 'StartMenu' took 0.096
+[2021.08.03-13.52.03:041][183]AssetCheck: New page: Asset Save: StartMenu
+[2021.08.03-13.52.03:041][183]LogContentValidation: Display: Validating World /Game/Maps/StartMenu.StartMenu
+[2021.08.03-13.56.34:127][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.08.03-13.56.34:210][514]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/BattleField.BattleField
+[2021.08.03-13.56.34:210][514]Cmd: MAP LOAD FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/BattleField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.03-13.56.34:210][514]LightingResults: New page: Lighting Build
+[2021.08.03-13.56.34:210][514]LoadErrors: New page: Loading map: BattleField.umap
+[2021.08.03-13.56.34:210][514]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.56.34:210][514]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.56.34:210][514]MapCheck: New page: Map Check
+[2021.08.03-13.56.34:210][514]LightingResults: New page: Lighting Build
+[2021.08.03-13.56.34:226][514]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-13.56.34:240][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.08.03-13.56.34:240][514]LogAudio: Display: Audio Device (ID: 1) registered with world 'BattleField'.
+[2021.08.03-13.56.34:329][514]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.03-13.56.34:329][514]LogAIModule: Creating AISystem for world BattleField
+[2021.08.03-13.56.34:350][514]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.08.03-13.56.34:359][514]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.03-13.56.34:360][514]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.289ms to complete.
+[2021.08.03-13.56.34:360][514]LogFileHelpers: Loading map 'BattleField' took 0.150
+[2021.08.03-13.56.35:931][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.08.03-13.56.35:950][595]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/BattleField.BattleField
+[2021.08.03-13.56.35:951][595]Cmd: MAP LOAD FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/BattleField.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.03-13.56.35:951][595]LightingResults: New page: Lighting Build
+[2021.08.03-13.56.35:951][595]LoadErrors: New page: Loading map: BattleField.umap
+[2021.08.03-13.56.35:989][595]LogWorld: UWorld::CleanupWorld for BattleField, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.56.35:989][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.56.35:989][595]MapCheck: New page: Map Check
+[2021.08.03-13.56.35:989][595]LightingResults: New page: Lighting Build
+[2021.08.03-13.56.36:004][595]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-13.56.36:010][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.08.03-13.56.36:066][595]LogAudio: Display: Audio Device (ID: 1) registered with world 'BattleField'.
+[2021.08.03-13.56.36:067][595]LogAIModule: Creating AISystem for world BattleField
+[2021.08.03-13.56.36:116][595]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.03-13.56.36:135][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.08.03-13.56.36:145][595]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.03-13.56.36:145][595]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.309ms to complete.
+[2021.08.03-13.56.36:145][595]LogFileHelpers: Loading map 'BattleField' took 0.195
+[2021.08.03-13.56.37:227][650]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-13.56.37:237][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-13.56.37:237][650]PIE: New page: PIE session: BattleField (Aug 3, 2021, 3:56:37 AM)
+[2021.08.03-13.56.37:237][650]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BattleField
+[2021.08.03-13.56.37:305][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066922s)
+[2021.08.03-13.56.37:306][650]LogAIModule: Creating AISystem for world BattleField
+[2021.08.03-13.56.37:306][650]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2021.08.03-13.56.37:306][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BattleField.BattleField to /Game/Maps/UEDPIE_0_BattleField.BattleField (0.068088s)
+[2021.08.03-13.56.37:323][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.08.03-13.56.37:325][650]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-13.56.37:325][650]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-13.56.37:325][650]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-13.56.37:326][650]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-13.56.37:326][650]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-13.56.37:328][650]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-13.56.37:328][650]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-13.56.37:348][650]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.03-13.56.37:348][650]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-13.56.37:348][650]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-13.56.37:348][650]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-13.56.37:349][650]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-13.56.37:349][650]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-13.56.37:349][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-13.56.37:374][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-13.56.37:374][650]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-13.56.37:374][650]LogInit: FAudioDevice initialized.
+[2021.08.03-13.56.37:374][650]LogAudio: Display: Audio Device (ID: 6) registered with world 'BattleField'.
+[2021.08.03-13.56.37:381][650]LogLoad: Game class is 'BP_BattleTankGameMode_C'
+[2021.08.03-13.56.37:383][650]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BattleField.BattleField up for play (max tick rate 60) at 2021.08.03-08.56.37
+[2021.08.03-13.56.37:383][650]LogWorld: Bringing up level for play took: 0.001488
+[2021.08.03-13.56.37:383][650]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.08.03-13.56.37:388][650]PIE: Server logged in
+[2021.08.03-13.56.37:389][650]PIE: Play in editor total start time 0.153 seconds.
+[2021.08.03-13.57.37:677][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-13.57.37:677][266]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_BattleField
+[2021.08.03-13.57.37:677][266]LogWorld: UWorld::CleanupWorld for BattleField, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.57.37:678][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.57.37:690][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-13.57.37:694][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.57.37:709][266]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-13.57.37:710][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-13.57.37:711][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-13.57.37:735][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-13.57.37:739][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.08.03-13.57.37:760][267]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.08.03-13.57.42:044][521]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.57.42:044][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.57.42:051][521]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.57.42:051][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.57.43:710][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.08.03-13.57.43:735][617]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/StartMenu.StartMenu
+[2021.08.03-13.57.43:735][617]Cmd: MAP LOAD FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.03-13.57.43:735][617]LightingResults: New page: Lighting Build
+[2021.08.03-13.57.43:735][617]LoadErrors: New page: Loading map: StartMenu.umap
+[2021.08.03-13.57.43:764][617]LogWorld: UWorld::CleanupWorld for BattleField, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-13.57.43:766][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-13.57.43:766][617]MapCheck: New page: Map Check
+[2021.08.03-13.57.43:766][617]LightingResults: New page: Lighting Build
+[2021.08.03-13.57.43:778][617]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-13.57.43:785][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.08.03-13.57.43:797][617]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartMenu'.
+[2021.08.03-13.57.43:799][617]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.03-13.57.43:799][617]LogAIModule: Creating AISystem for world StartMenu
+[2021.08.03-13.57.43:813][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.08.03-13.57.43:822][617]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.03-13.57.43:823][617]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.461ms to complete.
+[2021.08.03-13.57.43:823][617]LogFileHelpers: Loading map 'StartMenu' took 0.088
+[2021.08.03-14.00.23:215][484]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/StartMenu.StartMenu:PersistentLevel.StartMenu
+[2021.08.03-14.00.25:885][625]LogSlate: Window 'StartMenu' being destroyed
+[2021.08.03-14.01.09:291][126]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.08.03-14.01.55:612][182]BlueprintLog: New page: Compile StartMenu
+[2021.08.03-14.01.55:614][182]LogBlueprint: Error: [AssetLog] C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Content\Maps\StartMenu.umap: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2021.08.03-14.01.55:636][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.08.03-14.01.56:141][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.08.03-14.01.56:146][210]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/StartMenu888EBD304C460339781A1A9C2A9628DB.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/StartMenu.umap'
+[2021.08.03-14.01.56:159][210]LogFileHelpers: Saving map 'StartMenu' took 0.034
+[2021.08.03-14.01.56:172][210]AssetCheck: New page: Asset Save: StartMenu
+[2021.08.03-14.01.56:172][210]LogContentValidation: Display: Validating World /Game/Maps/StartMenu.StartMenu
+[2021.08.03-14.02.11:719][133]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2021.08.03-14.02.11:728][133]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2021.08.03-14.02.19:363][592]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> BP_Menu
+[2021.08.03-14.02.19:366][592]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2021.08.03-14.02.22:649][785]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/BP_Menu.BP_Menu
+[2021.08.03-14.02.51:037][454]BlueprintLog: New page: Compile BP_Menu
+[2021.08.03-14.02.51:058][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.08.03-14.02.51:640][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Menu" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_Menu.uasset" SILENT=true
+[2021.08.03-14.02.51:647][483]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_Menu80DC7B9D48A7B4A335DC9E8442B30B10.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_Menu.uasset'
+[2021.08.03-14.02.51:657][483]AssetCheck: New page: Asset Save: BP_Menu
+[2021.08.03-14.02.51:657][483]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/BP_Menu.BP_Menu
+[2021.08.03-14.02.53:807][612]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.08.03-14.03.23:118][339]BlueprintLog: New page: Compile StartMenu
+[2021.08.03-14.03.23:148][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.08.03-14.03.24:072][392]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.08.03-14.03.24:080][392]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/StartMenu6623281C437D55F5618E1E849448631C.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/StartMenu.umap'
+[2021.08.03-14.03.24:091][392]LogFileHelpers: Saving map 'StartMenu' took 0.036
+[2021.08.03-14.03.24:103][392]AssetCheck: New page: Asset Save: StartMenu
+[2021.08.03-14.03.24:103][392]LogContentValidation: Display: Validating World /Game/Maps/StartMenu.StartMenu
+[2021.08.03-14.03.27:984][624]BlueprintLog: New page: Compile BP_Menu
+[2021.08.03-14.03.28:004][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.08.03-14.03.28:547][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Menu" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_Menu.uasset" SILENT=true
+[2021.08.03-14.03.28:553][650]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_Menu5A1AAE6B43AF074560515BA95CC1985E.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_Menu.uasset'
+[2021.08.03-14.03.28:564][650]AssetCheck: New page: Asset Save: BP_Menu
+[2021.08.03-14.03.28:564][650]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/BP_Menu.BP_Menu
+[2021.08.03-14.03.31:003][797]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-14.03.31:012][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-14.03.31:012][797]PIE: New page: PIE session: StartMenu (Aug 3, 2021, 4:03:31 AM)
+[2021.08.03-14.03.31:012][797]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.03.31:013][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000787s)
+[2021.08.03-14.03.31:014][797]LogAIModule: Creating AISystem for world StartMenu
+[2021.08.03-14.03.31:014][797]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2021.08.03-14.03.31:014][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.001765s)
+[2021.08.03-14.03.31:034][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.08.03-14.03.31:034][797]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-14.03.31:034][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-14.03.31:034][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-14.03.31:035][797]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-14.03.31:035][797]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-14.03.31:037][797]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-14.03.31:037][797]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-14.03.31:058][797]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.03-14.03.31:058][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-14.03.31:058][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-14.03.31:058][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-14.03.31:058][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-14.03.31:058][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-14.03.31:058][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-14.03.31:080][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-14.03.31:080][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-14.03.31:080][797]LogInit: FAudioDevice initialized.
+[2021.08.03-14.03.31:080][797]LogAudio: Display: Audio Device (ID: 7) registered with world 'StartMenu'.
+[2021.08.03-14.03.31:089][797]LogLoad: Game class is 'GameModeBase'
+[2021.08.03-14.03.31:090][797]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 60) at 2021.08.03-09.03.31
+[2021.08.03-14.03.31:090][797]LogWorld: Bringing up level for play took: 0.000267
+[2021.08.03-14.03.31:090][797]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.08.03-14.03.31:094][797]PIE: Server logged in
+[2021.08.03-14.03.31:095][797]PIE: Play in editor total start time 0.085 seconds.
+[2021.08.03-14.03.36:630][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.03.36:630][127]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.03.36:630][127]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-14.03.36:631][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.03.36:637][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-14.03.36:640][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.03.36:657][127]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-14.03.36:657][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.03.36:658][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.03.36:683][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.03.36:685][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.08.03-14.03.36:698][128]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.08.03-14.07.38:618][852]AssetReimport: New page: Outstanding source content changes 4:07:38 AM
+[2021.08.03-14.07.38:620][852]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/tankFiring.jpg)
+[2021.08.03-14.07.39:041][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tankFiring" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/tankFiring.uasset" SILENT=true
+[2021.08.03-14.07.39:065][853]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/tankFiring653FC0914BD8DB79396FE9A16AFC30A0.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/tankFiring.uasset'
+[2021.08.03-14.07.39:121][854]AssetCheck: New page: Asset Save: tankFiring
+[2021.08.03-14.07.39:121][854]LogContentValidation: Display: Validating Texture2D /Game/tankFiring.tankFiring
+[2021.08.03-14.07.42:123][ 34]AssetReimport: Importing new asset /Game/tankFiring.
+[2021.08.03-14.08.07:217][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/tankFiring" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/tankFiring.uasset" SILENT=true
+[2021.08.03-14.08.07:227][528]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/tankFiring5F0861A644AD59EEB0F06CA5E19E8A9E.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/tankFiring.uasset'
+[2021.08.03-14.08.07:288][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.08.03-14.08.07:311][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.08.03-14.08.07:329][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.08.03-14.08.07:360][528]AssetCheck: New page: Asset Save: tankFiring
+[2021.08.03-14.08.07:360][528]LogContentValidation: Display: Validating Texture2D /Game/Maps/tankFiring.tankFiring
+[2021.08.03-14.10.25:865][389]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.08.03-14.10.25:875][389]LogContentBrowser: Creating deferred item: NewFolder
+[2021.08.03-14.10.27:846][508]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2021.08.03-14.10.27:846][508]LogContentBrowser: End creating deferred item NewFolder
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.SKEL_BP_Menu_C' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.BP_Menu_C' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.BP_Menu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.BP_Menu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.BP_Menu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.SKEL_BP_Menu_C:PreConstruct' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.SKEL_BP_Menu_C:Construct' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:515][380]LogMetaData: Removing '/Game/UI/BP_Menu.SKEL_BP_Menu_C:Tick' ref from Metadata '/Game/Blueprints/BP_Menu.PackageMetaData'
+[2021.08.03-14.10.42:542][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_Menu" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_Menu.uasset" SILENT=true
+[2021.08.03-14.10.42:548][380]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_Menu255BE92342E7483B80267DBE4D017DDE.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_Menu.uasset'
+[2021.08.03-14.10.42:550][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Menu" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_Menu.uasset" SILENT=true
+[2021.08.03-14.10.42:552][380]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_MenuA35343E644F6ED1611D0B1ABF7830109.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_Menu.uasset'
+[2021.08.03-14.10.42:588][380]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.03-14.10.42:588][380]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/BP_Menu.BP_Menu
+[2021.08.03-14.10.42:588][380]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/BP_Menu.Default__BP_Menu_C
+[2021.08.03-14.10.42:588][380]LogContentValidation: Display: Validating ObjectRedirector /Game/Blueprints/BP_Menu.BP_Menu_C
+[2021.08.03-14.10.42:588][380]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/BP_Menu.BP_Menu
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.BP_PlayerUI_C' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.SKEL_BP_PlayerUI_C' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.BP_PlayerUI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.BP_PlayerUI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.BP_PlayerUI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.SKEL_BP_PlayerUI_C:PreConstruct' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.SKEL_BP_PlayerUI_C:Construct' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:866][628]LogMetaData: Removing '/Game/UI/BP_PlayerUI.SKEL_BP_PlayerUI_C:Tick' ref from Metadata '/Game/Blueprints/BP_PlayerUI.PackageMetaData'
+[2021.08.03-14.10.46:891][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_PlayerUI" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_PlayerUI.uasset" SILENT=true
+[2021.08.03-14.10.46:897][628]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_PlayerUI14C788D847E247DDAB257FA1305BE753.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_PlayerUI.uasset'
+[2021.08.03-14.10.46:958][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.08.03-14.10.46:982][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.08.03-14.10.46:999][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.08.03-14.10.47:026][628]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_TankPlayerControllerB2C991DA42FEFFAD8682A5B3A357BF4E.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Blueprints/BP_TankPlayerController.uasset'
+[2021.08.03-14.10.47:064][628]AssetCheck: New page: Asset Save: multiple assets
+[2021.08.03-14.10.47:064][628]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/BP_PlayerUI.BP_PlayerUI
+[2021.08.03-14.10.47:064][628]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_TankPlayerController.BP_TankPlayerController
+[2021.08.03-14.10.52:254][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/tankFiring" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/tankFiring.uasset" SILENT=true
+[2021.08.03-14.10.52:263][932]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/tankFiringB6890D8349F63D840041579CECFA5CBD.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/tankFiring.uasset'
+[2021.08.03-14.10.52:325][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.08.03-14.10.52:350][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.08.03-14.10.52:368][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.08.03-14.10.52:399][932]AssetCheck: New page: Asset Save: tankFiring
+[2021.08.03-14.10.52:399][932]LogContentValidation: Display: Validating Texture2D /Game/UI/tankFiring.tankFiring
+[2021.08.03-14.11.09:707][959]LogContentBrowser: Attempting asset rename: tankFiring -> MenuBackground
+[2021.08.03-14.11.09:756][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MenuBackground" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/MenuBackground.uasset" SILENT=true
+[2021.08.03-14.11.09:765][959]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/MenuBackground41D62C70497D764C0E01DC9FB4B9AC00.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/MenuBackground.uasset'
+[2021.08.03-14.11.09:830][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.08.03-14.11.09:854][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.08.03-14.11.09:871][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.08.03-14.11.09:892][959]AssetCheck: New page: Asset Save: MenuBackground
+[2021.08.03-14.11.09:892][959]LogContentValidation: Display: Validating Texture2D /Game/UI/MenuBackground.MenuBackground
+[2021.08.03-14.12.18:284][298]BlueprintLog: New page: Compile BP_Menu
+[2021.08.03-14.12.18:305][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.08.03-14.12.18:865][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_Menu" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_Menu.uasset" SILENT=true
+[2021.08.03-14.12.18:872][330]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_MenuE3CC1380468DB609CF876D891E3167DE.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_Menu.uasset'
+[2021.08.03-14.12.18:882][330]AssetCheck: New page: Asset Save: BP_Menu
+[2021.08.03-14.12.18:882][330]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/BP_Menu.BP_Menu
+[2021.08.03-14.12.21:286][475]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-14.12.21:301][475]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-14.12.21:301][475]LogPlayLevel: [PlayLevel] Compiling BP_TankPlayerController before play...
+[2021.08.03-14.12.21:304][475]LogPlayLevel: [PlayLevel] Compiling StartMenu before play...
+[2021.08.03-14.12.21:335][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.08.03-14.12.21:336][475]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (2 blueprints)
+[2021.08.03-14.12.21:336][475]PIE: New page: PIE session: StartMenu (Aug 3, 2021, 4:12:21 AM)
+[2021.08.03-14.12.21:336][475]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.12.21:337][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000839s)
+[2021.08.03-14.12.21:338][475]LogAIModule: Creating AISystem for world StartMenu
+[2021.08.03-14.12.21:338][475]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2021.08.03-14.12.21:338][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.001864s)
+[2021.08.03-14.12.21:356][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.08.03-14.12.21:356][475]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.08.03-14.12.21:356][475]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-14.12.21:356][475]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-14.12.21:356][475]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-14.12.21:357][475]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-14.12.21:357][475]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-14.12.21:357][475]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-14.12.21:357][475]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-14.12.21:357][475]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-14.12.21:357][475]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-14.12.21:357][475]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-14.12.21:360][475]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-14.12.21:360][475]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-14.12.21:378][475]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.03-14.12.21:378][475]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-14.12.21:378][475]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-14.12.21:378][475]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-14.12.21:379][475]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-14.12.21:379][475]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-14.12.21:379][475]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-14.12.21:401][475]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-14.12.21:401][475]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-14.12.21:401][475]LogInit: FAudioDevice initialized.
+[2021.08.03-14.12.21:401][475]LogAudio: Display: Audio Device (ID: 8) registered with world 'StartMenu'.
+[2021.08.03-14.12.21:414][475]LogLoad: Game class is 'GameModeBase'
+[2021.08.03-14.12.21:415][475]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 60) at 2021.08.03-09.12.21
+[2021.08.03-14.12.21:415][475]LogWorld: Bringing up level for play took: 0.000271
+[2021.08.03-14.12.21:415][475]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.08.03-14.12.21:418][475]PIE: Server logged in
+[2021.08.03-14.12.21:419][475]PIE: Play in editor total start time 0.121 seconds.
+[2021.08.03-14.12.27:574][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.12.27:574][843]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.12.27:574][843]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-14.12.27:574][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.12.27:587][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-14.12.27:590][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.12.27:607][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.12.27:607][843]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.12.27:608][843]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.12.27:635][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.08.03-14.12.27:652][844]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.08.03-14.14.09:278][245]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-14.14.09:287][245]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.03-14.14.09:288][245]LogPlayLevel: [PlayLevel] Compiling BP_Menu before play...
+[2021.08.03-14.14.09:360][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.08.03-14.14.09:360][245]LogPlayLevel: PlayLevel: Blueprint regeneration took 72 ms (1 blueprints)
+[2021.08.03-14.14.09:360][245]PIE: New page: PIE session: StartMenu (Aug 3, 2021, 4:14:09 AM)
+[2021.08.03-14.14.09:360][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.14.09:361][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000840s)
+[2021.08.03-14.14.09:362][245]LogAIModule: Creating AISystem for world StartMenu
+[2021.08.03-14.14.09:362][245]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2021.08.03-14.14.09:362][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.001841s)
+[2021.08.03-14.14.09:380][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.08.03-14.14.09:380][245]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-14.14.09:380][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-14.14.09:380][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-14.14.09:380][245]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-14.14.09:381][245]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-14.14.09:383][245]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-14.14.09:383][245]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-14.14.09:403][245]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.03-14.14.09:404][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-14.14.09:404][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-14.14.09:404][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-14.14.09:404][245]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-14.14.09:404][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-14.14.09:404][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-14.14.09:428][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-14.14.09:428][245]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-14.14.09:428][245]LogInit: FAudioDevice initialized.
+[2021.08.03-14.14.09:428][245]LogAudio: Display: Audio Device (ID: 9) registered with world 'StartMenu'.
+[2021.08.03-14.14.09:461][245]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.14.09:462][245]LogLoad: Game class is 'GameModeBase'
+[2021.08.03-14.14.09:463][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 60) at 2021.08.03-09.14.09
+[2021.08.03-14.14.09:463][245]LogWorld: Bringing up level for play took: 0.000462
+[2021.08.03-14.14.09:464][245]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.08.03-14.14.09:465][245]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.08.03-14.14.09:467][245]PIE: Server logged in
+[2021.08.03-14.14.09:468][245]PIE: Play in editor total start time 0.183 seconds.
+[2021.08.03-14.14.13:551][487]LogSlate: Window 'BattleTank Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.08.03-14.14.13:560][487]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.14.13:560][487]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-14.14.13:560][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.14.13:570][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-14.14.13:573][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.14.13:591][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.14.13:592][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.14.13:619][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.08.03-14.14.13:667][490]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.08.03-14.14.20:668][909]BlueprintLog: New page: Compile StartMenu
+[2021.08.03-14.14.20:696][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.08.03-14.14.21:147][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.08.03-14.14.21:152][934]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/StartMenu100E7B794792B40950C4399E1E808687.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/Maps/StartMenu.umap'
+[2021.08.03-14.14.21:164][934]LogFileHelpers: Saving map 'StartMenu' took 0.035
+[2021.08.03-14.14.21:174][934]AssetCheck: New page: Asset Save: StartMenu
+[2021.08.03-14.14.21:174][934]LogContentValidation: Display: Validating World /Game/Maps/StartMenu.StartMenu
+[2021.08.03-14.14.23:186][ 53]BlueprintLog: New page: Compile BP_Menu
+[2021.08.03-14.14.23:207][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.08.03-14.14.23:596][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/BP_Menu" FILE="../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_Menu.uasset" SILENT=true
+[2021.08.03-14.14.23:603][ 72]LogSavePackage: Moving '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Saved/BP_MenuF6AF3D71492D37A77161AEB313C960AC.tmp' to '../../../../../../Users/Colby/OneDrive/Documents/GitHub/BattleTank/BattleTank/Content/UI/BP_Menu.uasset'
+[2021.08.03-14.14.23:616][ 72]AssetCheck: New page: Asset Save: BP_Menu
+[2021.08.03-14.14.23:616][ 72]LogContentValidation: Display: Validating WidgetBlueprint /Game/UI/BP_Menu.BP_Menu
+[2021.08.03-14.14.27:973][331]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.03-14.14.27:983][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.03-14.14.27:983][331]PIE: New page: PIE session: StartMenu (Aug 3, 2021, 4:14:27 AM)
+[2021.08.03-14.14.27:983][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.14.27:984][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000793s)
+[2021.08.03-14.14.27:985][331]LogAIModule: Creating AISystem for world StartMenu
+[2021.08.03-14.14.27:985][331]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2021.08.03-14.14.27:985][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartMenu.StartMenu to /Game/Maps/UEDPIE_0_StartMenu.StartMenu (0.001883s)
+[2021.08.03-14.14.28:005][331]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.08.03-14.14.28:005][331]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.03-14.14.28:005][331]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.03-14.14.28:005][331]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.03-14.14.28:006][331]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.03-14.14.28:006][331]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.03-14.14.28:008][331]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.03-14.14.28:008][331]LogAudioMixer: Display: 1: FrontRight
+[2021.08.03-14.14.28:029][331]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.08.03-14.14.28:029][331]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.03-14.14.28:029][331]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.03-14.14.28:029][331]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.03-14.14.28:030][331]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.03-14.14.28:030][331]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.08.03-14.14.28:030][331]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.08.03-14.14.28:055][331]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.08.03-14.14.28:055][331]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.08.03-14.14.28:055][331]LogInit: FAudioDevice initialized.
+[2021.08.03-14.14.28:055][331]LogAudio: Display: Audio Device (ID: 10) registered with world 'StartMenu'.
+[2021.08.03-14.14.28:067][331]LogLoad: Game class is 'GameModeBase'
+[2021.08.03-14.14.28:068][331]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 60) at 2021.08.03-09.14.28
+[2021.08.03-14.14.28:068][331]LogWorld: Bringing up level for play took: 0.000287
+[2021.08.03-14.14.28:068][331]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.08.03-14.14.28:071][331]PIE: Server logged in
+[2021.08.03-14.14.28:071][331]PIE: Play in editor total start time 0.091 seconds.
+[2021.08.03-14.14.32:246][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.14.32:246][579]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartMenu
+[2021.08.03-14.14.32:247][579]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.08.03-14.14.32:247][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.14.32:259][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.03-14.14.32:262][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.03-14.14.32:278][579]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.08.03-14.14.32:279][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.14.32:280][579]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.08.03-14.14.32:303][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.03-14.14.32:305][579]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2021.08.03-14.14.32:322][580]LogPlayLevel: Display: Destroying online subsystem :Context_25

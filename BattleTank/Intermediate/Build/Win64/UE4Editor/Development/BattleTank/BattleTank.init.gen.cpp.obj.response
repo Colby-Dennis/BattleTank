@@ -31,8 +31,8 @@
 /wd4244
 /wd4838
 /I .
-/I D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
-/I D:\GitHub\BattleTank\BattleTank\Source
+/I C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank
+/I C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\BattleTank.init.gen.cpp"
-/FI"D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
-/Fo"D:\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
+/FI"C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Inc\BattleTank\BattleTank.init.gen.cpp"
+/FI"C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Definitions.BattleTank.h"
+/Fo"C:\Users\Colby\OneDrive\Documents\GitHub\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
